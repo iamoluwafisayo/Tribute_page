@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(204, 211, 208) ;
+}
+#title {
+    text-align: center;
+    }
+#word{
+    text-align:center;
+    font-family: Verdana;
+}
+
+#tribute-info {
+    font-style: oblique;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 450px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+#tribute-page {
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
